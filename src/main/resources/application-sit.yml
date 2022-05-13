@@ -1,0 +1,21 @@
+logging:
+  file:
+    ## 日志文件路径
+    name: logs/spring.log
+
+threads:
+  ## 导出线程池大小
+  active: 20
+
+server:
+  ## 应用端口
+  port: 8080
+
+thymeleaf:
+  cache: false
+  prefix: classpath:/templates/
+  suffix: .html,.js,.css,.json
+  encoding: UTF-8
+  servlet:
+    content-type: text/html
+  mode: HTML5

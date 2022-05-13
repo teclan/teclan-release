@@ -1,0 +1,11 @@
+/.classpath
+/.project
+/.settings/
+/db/
+/target/
+/logs/
+/.idea
+*.iml
+/.svn
+win-jre/
+linux-jre/

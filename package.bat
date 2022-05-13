@@ -1,0 +1,10 @@
+MD "standalone/conf"
+copy "src/main/resources" "standalone/conf"
+MD "standalone/bin"
+MD "standalone/bin/curl"
+copy "bin" "standalone/bin"
+copy "bin/curl" "standalone/bin/curl"
+del "standalone/logs"
+rd "standalone/logs"
+mvn clean package & copy "target\cmis-spring-boot-0.0.1.jar" "standalone\cmis-spring-boot-0.0.1.jar"
+pause;

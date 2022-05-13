@@ -1,0 +1,4 @@
+spring:
+  profiles:
+    ## 环境指定，生产为 pro , 其他环境自定义
+    active: sit

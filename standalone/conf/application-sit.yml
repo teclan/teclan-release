@@ -1,0 +1,20 @@
+datasource:
+  driver-class-name: oracle.jdbc.driver.OracleDriver
+  url: jdbc:oracle:thin:@xxxxxxx:1521:orcl
+  username: xxxxx
+  password: xxxxx
+
+logging:
+  file:
+    ## 日志文件路径
+    name: logs/spring.log
+
+threads:
+  ## 导出线程池大小
+  active: 20
+
+
+server:
+  ## 应用端口
+  port: 8080
+
